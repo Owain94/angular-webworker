@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1.
 
+## Demo
+
+https://owain94.github.io/angular-webworker/
+
 ## Building
 
 Run `npm run build` for a development build.  
