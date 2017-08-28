@@ -8,6 +8,7 @@ const webpack = require("webpack")
 const HtmlWebpackPlugin = require("html-webpack-plugin")
 const HtmlWebpackExcludeAssetsPlugin = require("html-webpack-exclude-assets-plugin")
 const ScriptExtHtmlWebpackPlugin = require("script-ext-html-webpack-plugin")
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 const { CommonsChunkPlugin } = require("webpack").optimize
 const { AotPlugin } = require("@ngtools/webpack")
@@ -394,7 +395,10 @@ module.exports = {
     new ScriptExtHtmlWebpackPlugin({
       "async": "main",
       "inline": "inline"
-    })
+    }),
+    new CopyWebpackPlugin([
+      { from: 'src/assets', to: 'assets' }
+    ])
   ],
   "node": {
     "fs": "empty",
