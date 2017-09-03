@@ -1,5 +1,7 @@
 # Angular-Webworker
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Owain94/angular-webworker.svg)](https://greenkeeper.io/)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1.
 
 ## Demo
