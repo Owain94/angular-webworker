@@ -1,6 +1,9 @@
 # Angular-Webworker
 
+[![Build Status](http://136.144.141.239:8111/app/rest/builds/aggregated/strob:(buildType:(project:(id:AngularWebworker)))/statusIcon.svg)](http://136.144.141.239:8111/viewType.html?buildTypeId=AngularWebworker)
 [![Greenkeeper badge](https://badges.greenkeeper.io/Owain94/angular-webworker.svg)](https://greenkeeper.io/)
+[![dependencies Status](https://david-dm.org/Owain94/angular-webworker/status.svg)](https://david-dm.org/Owain94/Owain.nl)
+[![devDependencies Status](https://david-dm.org/Owain94/angular-webworker/dev-status.svg)](https://david-dm.org/Owain94/Owain.nl?type=dev)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1.
 
