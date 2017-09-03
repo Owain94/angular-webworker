@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ClientMessageBrokerFactory, ClientMessageBroker, UiArguments, FnArg, PRIMITIVE } from '@angular/platform-webworker';
+import { ClientMessageBrokerFactory, ClientMessageBroker, UiArguments, FnArg, SerializerTypes } from '@angular/platform-webworker';
 
 import { BrokerService } from './services/broker.service';
 
@@ -28,13 +28,13 @@ export class AppComponent implements OnInit {
     const args = new UiArguments(func);
     args.method = func;
     if (data) {
-      const fnArg = new FnArg(data, PRIMITIVE);
+      const fnArg = new FnArg(data, SerializerTypes.PRIMITIVE);
       fnArg.value = data;
-      fnArg.type = PRIMITIVE;
+      fnArg.type = SerializerTypes.PRIMITIVE;
       args.args = [fnArg];
     }
 
-    return broker.runOnService(args, PRIMITIVE);
+    return broker.runOnService(args, SerializerTypes.PRIMITIVE);
   }
 
   public sendMessage(name: string): void {
