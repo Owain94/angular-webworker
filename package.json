@@ -36,7 +36,7 @@
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
-    "@angular-devkit/build-optimizer": "^0.0.21",
+    "@angular-devkit/build-optimizer": "^0.0.23",
     "@angular/compiler-cli": "^5.0.0-beta.6",
     "@angular/language-service": "^5.0.0-beta.6",
     "@ngtools/webpack": "^1.6.2",
@@ -104,7 +104,7 @@
     "typescript": "~2.5.2",
     "url-loader": "^0.5.7",
     "webpack": "~3.6.0",
-    "webpack-dev-server": "~2.8.0",
+    "webpack-dev-server": "~2.9.1",
     "webpack-merge": "^4.1.0"
   },
   "lint-staged": {
