@@ -31,7 +31,7 @@
     "@angular/platform-webworker-dynamic": "^5.0.0-beta.6",
     "@angular/router": "^5.0.0-beta.6",
     "@angularclass/bootloader": "^1.0.1",
-    "core-js": "^2.4.1",
+    "core-js": "^3.4.5",
     "rxjs": "^5.4.2",
     "zone.js": "^0.8.14"
   },
