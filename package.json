@@ -58,7 +58,7 @@
     "html-webpack-exclude-assets-plugin": "^0.0.5",
     "html-webpack-plugin": "^2.29.0",
     "http-server": "^0.10.0",
-    "husky": "^0.14.3",
+    "husky": "^4.1.0",
     "istanbul-instrumenter-loader": "^3.0.0",
     "jasmine-core": "~2.8.0",
     "jasmine-spec-reporter": "~4.2.1",
